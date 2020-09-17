@@ -1,20 +1,20 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-// import Clock from './Components/Clock'
+import Clock from './Components/Clock'
 // import Greeting from './Components/Greeting'
 // import LoginControl from './Components/LoginControl';
 // import NumberList from './Components/NumberList';
-import NameForm from './Components/NameForm'
+// import NameForm from './Components/NameForm'
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Clock/> */}
+      <Clock/>
       {/* <LoginControl/> */}
       {/* <NumberList numbers={numbers}/> */}
-      <NameForm/>
+      {/* <NameForm/> */}
     </div>
   );
 }
